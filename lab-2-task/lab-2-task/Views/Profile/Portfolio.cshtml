@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Portfolio";
+}
+
+@Html.ActionLink("Back to Profile", "Index")
+
+<h2>My Portfolio</h2>
+<hr />
+
+<div>
+    <h4>@Model.UserName</h4>
+    <ul style="padding: 0; list-style-type: none">
+        <li><strong>Id: </strong>@Model.Id</li>
+        <li><strong>CGPA: </strong>@Model.CGPA</li>
+        <li><strong>Address: </strong>@Model.Address</li>
+    </ul>
+</div>
+

@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Projects";
+}
+
+@Html.ActionLink("Back to Profile", "Index")
+
+<h2>Projects</h2>
+<hr />
+
+<table class="table" style="width: 100%;">
+    <thead>
+        <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Technologies Used</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var proj in Model)
+        {
+            <tr>
+                <td><strong>@proj.ProjectName</strong></td>
+                <td>@proj.Description</td>
+                <td>@proj.TechnologiesUsed</td>
+            </tr>
+        }
+    </tbody>
+</table>
