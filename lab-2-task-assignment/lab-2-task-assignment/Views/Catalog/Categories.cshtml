@@ -1,0 +1,20 @@
+﻿@model IEnumerable<lab_2_task_assignment.Models.Category>
+
+@{
+    ViewBag.Title = "Categories";
+}
+
+@Html.ActionLink("Back to Catalog", "Index", "Catalog")
+
+<h2>Categories</h2>
+<p>Explore our diverse range of product categories!</p>
+
+@foreach (var category in Model)
+{
+    <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+        <h3>@category.Name</h3>
+        <p>@category.Description</p>
+    </div>
+}
+
+

@@ -1,0 +1,18 @@
+﻿@model IEnumerable<lab_2_task_assignment.Models.Product>
+@{
+    ViewBag.Title = "FeaturedProducts";
+}
+
+@Html.ActionLink("Back to Catalog", "Index", "Catalog")
+
+<h2>Today's Featured Products</h2>
+<p>Check out our hand-picked selection of featured products for today!</p>
+
+@foreach (var product in Model)
+{
+    <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+        <h3>@product.Name</h3>
+        <p>@product.Description</p>
+        <p>Price: $@product.Price</p>
+    </div>
+}

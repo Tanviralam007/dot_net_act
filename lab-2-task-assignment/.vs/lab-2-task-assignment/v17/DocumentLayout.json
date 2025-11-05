@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|c:\\users\\acer\\downloads\\university\\dot_net\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|solutionrelative:lab-2-task-assignment\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|c:\\users\\acer\\downloads\\university\\dot_net\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\views\\catalog\\featuredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|solutionrelative:lab-2-task-assignment\\views\\catalog\\featuredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|c:\\users\\acer\\downloads\\university\\dot_net\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\views\\catalog\\productreviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|solutionrelative:lab-2-task-assignment\\views\\catalog\\productreviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|c:\\users\\acer\\downloads\\university\\dot_net\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\views\\catalog\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|solutionrelative:lab-2-task-assignment\\views\\catalog\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|c:\\users\\acer\\downloads\\university\\dot_net\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABCFBFC-9B00-433C-ACCF-55EFD9A84857}|lab-2-task-assignment\\lab-2-task-assignment.csproj|solutionrelative:lab-2-task-assignment\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "lab-2-task-assignment\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Models\\Product.cs",
+              "RelativeToolTip": "lab-2-task-assignment\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:48:33.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CatalogController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Controllers\\CatalogController.cs",
+              "RelativeDocumentMoniker": "lab-2-task-assignment\\Controllers\\CatalogController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "lab-2-task-assignment\\Controllers\\CatalogController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:43:14.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeaturedProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Views\\Catalog\\FeaturedProducts.cshtml",
+              "RelativeDocumentMoniker": "lab-2-task-assignment\\Views\\Catalog\\FeaturedProducts.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Views\\Catalog\\FeaturedProducts.cshtml",
+              "RelativeToolTip": "lab-2-task-assignment\\Views\\Catalog\\FeaturedProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T19:26:03.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductReviews.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Views\\Catalog\\ProductReviews.cshtml",
+              "RelativeDocumentMoniker": "lab-2-task-assignment\\Views\\Catalog\\ProductReviews.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Views\\Catalog\\ProductReviews.cshtml",
+              "RelativeToolTip": "lab-2-task-assignment\\Views\\Catalog\\ProductReviews.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T19:27:27.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categories.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Views\\Catalog\\Categories.cshtml",
+              "RelativeDocumentMoniker": "lab-2-task-assignment\\Views\\Catalog\\Categories.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\university\\dot_NET\\practice-by\\lab-2-task-assignment\\lab-2-task-assignment\\Views\\Catalog\\Categories.cshtml",
+              "RelativeToolTip": "lab-2-task-assignment\\Views\\Catalog\\Categories.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T19:26:58.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
