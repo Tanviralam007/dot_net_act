@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+@{ 
+    bool CheckGender(string gender)
+    {
+        if (Model.Gender != null && Model.Gender == gender)
+            return true;
+        return false;
+
+    }
+}
+
+
+<h2>Edit Student Info</h2>
+<form action="" method="post">
+    <table class="table table-borderless" style="width: 500px">
+        <tr>
+            <td>
+                <input type="hidden" 
+                       name="Id" 
+                       value="@Model.Id" />
+            </td>
+        </tr>
+        <tr>
+            <td><label>Name</label></td>
+            <td>
+                <input type="text"
+                       name="Name" 
+                       placeholder="Name"
+                       value="@Model.Name"
+                       class="form-control" />
+            </td>
+        </tr>
+
+        <tr>
+            <td><label>Email</label></td>
+            <td>
+                <input type="text" 
+                       name="Email" 
+                       placeholder="Email" 
+                       value="@Model.Email"
+                       class="form-control" />
+            </td>
+        </tr>
+
+        <tr>
+            <td><label>Gender</label></td>
+            <td>
+                <input 
+                       type="radio" 
+                       name="Gender" 
+                       value="Male" 
+                       checked="@CheckGender("Male")"/> Male
+                &nbsp;&nbsp;
+                <input type="radio"
+                       name="Gender"
+                       value="Female" 
+                       checked="@CheckGender("Female")"/> Female
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Update" class="btn btn-primary" />
+            </td>
+        </tr>
+    </table>
+</form>
