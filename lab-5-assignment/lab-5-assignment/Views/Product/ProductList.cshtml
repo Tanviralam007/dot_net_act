@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "ProductList";
+}
+
+<h2>Product List</h2>
+
+<a href="/Product/Create" class="btn btn-primary">Create Product</a>
+<table class="table table-borderless">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td>@item.Qty</td>
+            <td>
+                <a href="/Product/Details/@item.Id" class="btn btn-primary" >Details</a>
+                <a href="/Product/Edit/@item.Id" class="btn btn-primary" >Edit</a>
+                <a href="/Product/Delete/@item.Id" class="btn btn-primary" >Delete</a>
+            </td>
+        </tr>
+    }
+</table>
