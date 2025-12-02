@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Product Details</h2>
+<a href="/Product/ProductList" class="btn btn-primary">Back to Product List</a>
+<br />
+<br />
+
+
+<form action="" method="post" class="form-control">
+    <table class="table table-borderless">
+        <tbody>
+            <tr>
+                <td>
+                    <input type="hidden"
+                           name="Id"
+                           value="@Model.Id"
+                           class="form-control"
+                           readonly />
+                </td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text"
+                           name="Name"
+                           value="@Model.Name"
+                           class="form-control" />
+                </td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>
+                    <input type="number"
+                           name="Price"
+                           value="@Model.Price"
+                           class="form-control" />
+                </td>
+            </tr>
+            <tr>
+                <td>Quantity</td>
+                <td>
+                    <input type="number"
+                           name="Qty"
+                           value="@Model.Qty"
+                           class="form-control" />
+                </td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td>
+                    <select name="C_Id" class="form-control">
+                        <option value="">-- Select Category --</option>
+
+                        @foreach (var c in ViewBag.Categories)
+                        {
+                            <option value="@c.Id">@c.Name</option>
+                        }
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Update" class="btn btn-primary" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
